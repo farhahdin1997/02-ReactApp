@@ -71,3 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### MY DEPLOYMENT LINK
 https://farhahdin1997.github.io/02-ReactApp/
+
+### RUN MY APPLICATION
+npm install
+npm start
