@@ -45,7 +45,7 @@ export const Contact = () => {
           </section>
         </section>
         <section>
-          <p>Looking forward to answering your email</p>
+  
           <form>
             <input type="text" placeholder="Name *" required />
             <input type="email" placeholder="Email *" required />

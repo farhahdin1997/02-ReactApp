@@ -10,3 +10,5 @@ export const LinkIcon = props => {
     </a>
   );
 };
+
+// Importing the icons 
