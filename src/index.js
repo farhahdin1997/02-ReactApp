@@ -1,10 +1,13 @@
-// TODO: Add a comment giving a brief description of what React is
-import React from 'react';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./reset.css";
+import "./index.css";
+import App from "./components/App/App";
+import * as serviceWorker from "./serviceWorker";
 
-// TODO: Add a comment that describes the difference between react and react-dom
-import ReactDOM from 'react-dom';
+ReactDOM.render(<App />, document.getElementById("root"));
 
-import App from './App';
-
-// TODO: Add a comment describing the significance of the ReactDOM.render method
-ReactDOM.render(<App />, document.getElementById('root'));
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
