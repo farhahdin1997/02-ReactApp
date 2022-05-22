@@ -9,6 +9,8 @@ export const contact = {
   github: "https://github.com/farhahdin1997",
 twitter:"https://twitter.com/",
 // stackoverflow:" https://stackoverflow.com/",
+phone: "07777777777",
+  email: "fakemail@me.com",
   
   
 };
